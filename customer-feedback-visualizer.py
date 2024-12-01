@@ -1,5 +1,11 @@
 import pandas as pd
 from faker import Faker
+from textblob import TextBlob
+import nltk
+import spacy
+import matplotlib.pyplot as plt
+import seaborn as sns
+from 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
 fake = Faker()
