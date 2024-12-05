@@ -96,6 +96,7 @@ After running the script, it will generate synthetic customer feedback data and 
 
 A CSV file (customer_feedback.csv) with customer feedback data.
 Pie charts showing sentiment distribution (TextBlob and VADER).
+![image](https://github.com/user-attachments/assets/8cd03e7f-ac4e-4804-9d2a-0cb229466164)
 
 ---
 
