@@ -72,3 +72,43 @@ The **Customer Feedback Visualizer** processes customer feedback data to:
    ```bash
    git clone https://github.com/your-repo/customer-feedback-visualizer.git
    cd customer-feedback-visualizer
+
+2. **Install the necessary dependencies**:
+   Ensure you have Python 3.6+ installed, then install the required
+   libraries:
+   ```bash
+   pip install -r requirements.txt
+3. **Run the script**:
+   Run the Python script to generate the feedback data and visualize
+   the sentiment distribution:
+   ```bash
+   python customer-feedback-visualizer.py
+
+---
+
+## Usage
+
+After running the script, it will generate synthetic customer feedback data and perform sentiment analysis using TextBlob and VADER. The results are displayed as pie charts for each sentiment analysis method. The program categorizes feedback into Satisfactory, Unsatisfactory, and Neutral sentiments.
+
+---
+
+## Output
+
+A CSV file (customer_feedback.csv) with customer feedback data.
+Pie charts showing sentiment distribution (TextBlob and VADER).
+
+---
+
+## Acknowledgments
+
+**Faker**: For generating synthetic data.
+
+**spaCy**: For text preprocessing.
+
+**TextBlob**: For sentiment analysis.
+
+**VADER**: For sentiment scoring.
+
+**Matplotlib and Seaborn**: For data visualization.
+
+
